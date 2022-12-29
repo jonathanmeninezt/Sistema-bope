@@ -168,6 +168,18 @@ section.home-initial{
     height: 150px;
     background-color: #00c853;
     margin-left: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#icon1{
+    margin-top: 0px;
+}
+
+.box1 h2{
+    font-size: 22px;
+    
 }
 
 .box2{
