@@ -132,6 +132,7 @@ section.home-initial{
     width: 20%;
     height: 600px;
     background-color: gray;
+    
 }
 
 .primary-box{
@@ -179,6 +180,9 @@ section.home-initial{
     background-color: #00c853;
     margin-left: 25px;
     display: flex;
+    -webkit-box-shadow: 0px 4px 17px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 4px 17px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 4px 17px 0px rgba(0,0,0,0.75);
     
     
 }
@@ -210,6 +214,9 @@ section.home-initial{
     height: 150px;
     background-color: #ff5252;
     display: flex;
+    -webkit-box-shadow: 0px 4px 17px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 4px 17px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 4px 17px 0px rgba(0,0,0,0.75);
    
 }
 
@@ -240,6 +247,9 @@ section.home-initial{
     height: 150px;
     background-color:#2196f3;
     display: flex;
+    -webkit-box-shadow: 0px 4px 17px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 4px 17px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 4px 17px 0px rgba(0,0,0,0.75);
     
 }
 
@@ -270,6 +280,9 @@ section.home-initial{
     height: 150px;
     background-color: #e040fb;
     display: flex;
+    -webkit-box-shadow: 0px 4px 17px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 4px 17px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 4px 17px 0px rgba(0,0,0,0.75);
    
 }
 
@@ -301,6 +314,9 @@ section.home-initial{
     background-color: blue;
     margin-top: 20px;
     margin-left: 100px;
+    -webkit-box-shadow: 0px 4px 17px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 4px 17px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 4px 17px 0px rgba(0,0,0,0.75);
 }
 
 
