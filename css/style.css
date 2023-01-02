@@ -131,8 +131,17 @@ section.home-initial{
 .container-primary{
     width: 20%;
     height: 600px;
-    background-color: gray;
+    background-color: gainsboro;
     
+    
+}
+
+.container-primary h3{
+    font-size: 18px;
+    font-weight: lighter;
+    font-family:'Montserrat', sans-serif ;
+    text-align: justify;
+    margin-left: 35px;
 }
 
 .primary-box{
@@ -151,6 +160,7 @@ section.home-initial{
     font-weight: 400;
     margin-left: 17px;
     color: whitesmoke;
+    
 }
 
 
