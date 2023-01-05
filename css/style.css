@@ -204,10 +204,9 @@ section.home-initial{
 }
 
 .box1{
-    width: 35%;
-    height: 150px;
+    width: 22%;
+    height: 135px;
     background-color: #00c853;
-    margin-left: 25px;
     display: flex;
     -webkit-box-shadow: 0px 4px 17px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 4px 17px 0px rgba(0,0,0,0.75);
@@ -241,20 +240,20 @@ section.home-initial{
 
 .box1 span{
     margin-top: 100px; 
-    font-size: 20px;
-    font-weight: 500;
+    font-size: 30px;
+    font-weight: 900;
     font-family:'Montserrat', sans-serif; 
     position: relative; 
-    right:100px;
-    color: wheat;
-    border-radius: 160px;
-    background-color: green;
+    right:110px;
+    color: rgba(77, 57, 57, 0.777);
+    
+    
 }
 
 
 .box2{
-    width: 35%;
-    height: 150px;
+    width: 22%;
+    height: 135px;
     background-color: #ff5252;
     display: flex;
     -webkit-box-shadow: 0px 4px 17px 0px rgba(0,0,0,0.75);
@@ -286,14 +285,23 @@ section.home-initial{
      font-weight: 400;
      margin-left: 90px;
      margin-top: 20px;
-     color: whitesmoke
-     
-     
+     color: whitesmoke    
  }
 
+ .box2 span{
+    margin-top: 100px; 
+    font-size: 25px;
+    font-weight: 900;
+    font-family:'Montserrat', sans-serif; 
+    position: relative; 
+    right:110px;
+    color: rgba(77, 57, 57, 0.777);
+    
+}
+
 .box3{
-    width: 35%;
-    height: 150px;
+    width: 22%;
+    height: 135px;
     background-color:#2196f3;
     display: flex;
     -webkit-box-shadow: 0px 4px 17px 0px rgba(0,0,0,0.75);
@@ -325,14 +333,24 @@ section.home-initial{
      font-weight: 400;
      margin-left: 90px;
      margin-top: 20px;
-     color: whitesmoke
-     
-     
+     color: whitesmoke   
  }
 
+
+ .box3 span{
+    margin-top: 100px; 
+    font-size: 30px;
+    font-weight: 900;
+    font-family:'Montserrat', sans-serif; 
+    position: relative; 
+    right:130px;
+    color: rgba(77, 57, 57, 0.777);
+    
+}
+
 .box4{
-    width: 35%;
-    height: 150px;
+    width: 22%;
+    height: 135px;
     background-color: #e040fb;
     display: flex;
     -webkit-box-shadow: 0px 4px 17px 0px rgba(0,0,0,0.75);
@@ -364,10 +382,19 @@ section.home-initial{
      font-weight: 400;
      margin-left: 90px;
      margin-top: 20px;
-     color: whitesmoke
-     
-     
+     color: rgba(77, 57, 57, 0.777);
  }
+
+ .box4 span{
+    margin-top: 100px; 
+    font-size: 30px;
+    font-weight: 900;
+    font-family:'Montserrat', sans-serif; 
+    position: relative; 
+    right:130px;
+    color: rgba(77, 57, 57, 0.777);
+    
+}
 
 .box-metric{
     width: 80%;
