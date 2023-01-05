@@ -152,7 +152,7 @@ section.home-initial{
 }
 
 .container-primary h3:hover{
-    color: rgb(255, 255, 255);
+    color: rgb(140, 135, 135);
 }
 
 .primary-box{
@@ -180,6 +180,7 @@ section.home-initial{
     width: 70px;
     height: 70px;
     margin-left: 20px;
+    border-radius: 40px;
    
     
 }
