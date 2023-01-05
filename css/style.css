@@ -76,7 +76,7 @@ i{
     
 }
 
-button{
+button.login{
     padding: 14px 85px;
     border-radius: 30px;
     background-color: brown;
@@ -89,7 +89,7 @@ button{
     transition: all 0.2s ease-in-out;
 }
 
-button:hover{
+button.login:hover{
     transform: scale(1.1);
     background-color: rgb(122, 54, 54);
 }
@@ -446,4 +446,37 @@ section.home-initial{
     color: white;
     cursor: pointer;
     
+}
+
+.registration-new input.w50{
+    width: 40%;
+    padding: 15px 5px;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    text-align: left;
+    border: 1px solid white;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+}
+
+.registration-new button.search{
+    padding: 18px 45px;
+    border-radius: 0;
+    background-color: rgb(57, 195, 130);
+    color: white;
+    text-transform: upercase;
+    cursor: pointer;
+    border: 1px solid white;
+
+    
+}
+
+.registration-new i.search{
+    
+
+    color: black;
+
 }
