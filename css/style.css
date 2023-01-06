@@ -505,9 +505,9 @@ section.home-initial{
 }
 
 #search{
-    color: black;
-    font-size: 22px;
+    color: rgb(222, 222, 222);
+    font-size: 16px;
     position: relative;
-    right: 10px;
+    left:-159px;
 
 }
