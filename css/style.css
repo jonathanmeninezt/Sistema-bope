@@ -423,6 +423,36 @@ section.home-initial{
 
 /* *************Page Registration************* */
 
+.registration{
+    width: 90%;
+    height: 190px;
+    background-color: rgb(230, 230, 230);
+    margin-left: 50px;
+    margin-top: 25px;
+    padding-top: 8px;
+    
+    
+    
+}
+
+.registration h2{
+    margin-left: 20px;
+    margin-top: 20px;
+    border-bottom: 1px solid black;
+    height: 50px;
+    width: 96%;
+    font-size: 22px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: rgb(4, 92, 140);
+    
+}
+
+.registration-new{
+    margin: 20px 0;
+    
+   
+}
 
 .registration-new input.w100{
     width: 210px;
@@ -474,9 +504,10 @@ section.home-initial{
     
 }
 
-.registration-new i.search{
-    
-
+#search{
     color: black;
+    font-size: 22px;
+    position: relative;
+    right: 10px;
 
 }
