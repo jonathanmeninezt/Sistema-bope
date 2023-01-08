@@ -536,5 +536,19 @@ section.home-initial{
     color: rgb(4, 92, 140);
     
 }
+
+.information-one{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    gap: 70px;
+}
+
+.information-one > h2{
+    margin-left: 15px;
+    margin-top: 20px;
+    text-transform: capitalize;
+    font-size: 17px;
+}
     
 
