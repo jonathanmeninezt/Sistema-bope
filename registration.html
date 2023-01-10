@@ -64,15 +64,14 @@
                 <i id="search" class="fa-sharp fa-solid fa-magnifying-glass"></i>
             </div><!--registration-new-->
         </div><!--registration-->
+
         <div class="container-tri">
           <h2>Cadastro de Pessoas</h2>
-
-          <div class="information-one">
-            
+           <div class="information-one">
             <h2><i class="fa-solid fa-earth-americas"></i>Geral</h2>
-            
             <h2><i class="fa-sharp fa-solid fa-location-dot"></i>Endereço</h2>
-          </div><!--information-one-->
+           </div><!--information-one-->
+
           <form class="world">
             <div class="name">
               <label>Nome*</label>
@@ -80,6 +79,7 @@
               <label>Data de Nascimento</label>
               <input class="date" type="date" name="date">
             </div><!--name-->
+
             <div class="document">
               <label>CPF</label>
               <input type="text" name="document" >
@@ -88,6 +88,7 @@
               <label>CNPJ</label>
               <input type="text" name="document">
             </div><!--document-->
+
             <div class="contact">
               <label>Celular</label>
               <input type="telefone" name="telefone" placeholder="(47)99999-9999">
@@ -96,18 +97,77 @@
               <label>emaill</label>
               <input type="email" name="email" placeholder="e-maill">
             </div><!--contact-->
+
             <div class="button-save">
               <i class="fa-solid fa-check"></i>
               <button>Salvar</button>
             </div><!--button-->
+
           </form><!--world-->
-          
-          
+
+          <form class="map">
+            <div class="adress">
+              <label>Endereço</label>
+              <input type="text" name="adress">
+              <label>Número</label>
+              <input class="number" type="number" name="number">
+            </div><!--adress-->
+
+            <div class="localization">
+              <label>Estado</label>
+              <select class="estate" name="estate">
+                <option value=""  disabled selected>Selecione</option>
+                <option value="1">Rio de Janeiro</option>
+              </select><!--estate-->   
+
+            <label>Bairro</label>
+            <select class="district" name="district">
+              <option value=""  disabled selected>Selecione</option>
+              <option value="1">Realengo</option>
+              <option value="2">Bangu</option>
+              <option value="3">Sulacap</option>
+              <option value="4">Campo Grande</option> 
+              <option value="5">Barra da Tijuca</option> 
+              <option value="6">Madureira</option> 
+              <option value="7">Méier</option>  
+            </select><!--district-->
+            <label>Complemento</label>
+            <input class="complement" type="text" name="text">
+          </div><!--localization-->
+          <div class="zip-code">
+            <label>CEP</label>
+            <input class="code" type="text" name="text">
+          </div><!--zip-code-->
+
+          <fieldset>
+            <legend> Participa de Estudo Bíblico?</legend>
+            <div>
+              <input type = "checkbox" id = "codificação" name = "interesse" value = "codificação">
+              <label for = "coding"> Sim </ label>
+            </div>
+            <div>
+              <input type = "checkbox" id = "música" name = "interesse" value = "música">
+              <label for = "music"> Não </ label>
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend> Recebe cesta básica?</legend>
+            <div>
+              <input type = "checkbox" id = "codificação" name = "interesse" value = "codificação">
+              <label for = "coding"> Sim </ label>
+            </div>
+            <div>
+              <input type = "checkbox" id = "música" name = "interesse" value = "música">
+              <label for = "music"> Não </ label>
+            </div>
+          </fieldset>
+
+            
+          </form><!--map-->
+
         </div><!--container-tri-->
         </div><!--box-->
-
       </div><!--container-secondary-->
-      
     </section><!--home-initial-->
    
     

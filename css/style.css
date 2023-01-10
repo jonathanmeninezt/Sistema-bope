@@ -133,11 +133,7 @@ section.home-initial{
 .container-primary{
     width: 20%;
     height: 630px;
-    background-color: gainsboro;
-    
-    
-    
-    
+    background-color: gainsboro;  
 }
 
 .container-primary h3{
@@ -567,9 +563,9 @@ section.home-initial{
 
 /* **********Geral************* */
 
-/* form.world{
+form.world{
     display: none;
-} */
+}
 
 .name{
     display: flex;
@@ -665,3 +661,109 @@ section.home-initial{
 }
 
 /* ***********Fim Geral************ */
+
+form.map{
+    margin-top: 50px;
+}
+
+.adrees{
+    width: 100%;
+    display: flex;
+
+}
+
+.adress label{
+    position: relative;
+    left: 15px;
+}
+
+.adress > input{
+    width: 50%;
+    padding: 6px 65px;
+    margin: 0 25px;
+    font-size: 15px;
+    font-weight: 500;
+
+    
+}
+
+.adress input.number{
+    padding: 6px 35px;
+    width: 9%;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.localization{
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 11px;
+    display: flex;
+    flex-direction: row;
+}
+
+.localization label{
+    position: relative;
+    left: 30px;
+    top: 15px;
+    
+}
+
+.localization > select.estate{
+    padding: 6px 45px;
+    margin: 10px 40px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.localization > select.district{
+    padding: 6px 45px;
+    margin: 10px 40px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.localization input.complement{
+    padding: 6px 45px;
+    margin: 10px 35px;
+    font-size: 15px;
+    font-weight: 500;
+
+}
+.zip-code{
+    width: 100%;
+    margin-left: 37px;
+    margin-top: 10px;
+    
+}
+
+.zip-code input.code{
+    padding: 6px 45px;
+    margin: 10px 30px;
+    font-size: 15px;
+    font-weight: 500;
+}
+    
+    
+
+
+
+
+
+@media screen and (max-width:2100px){
+    .container-tri{
+        width: 90%;
+        height: 595px;
+        background-color: rgb(230, 230, 230);
+        margin-top: 20px;
+        margin-left: 50px;
+       
+    }
+    .container-primary{
+        width: 20%;
+        height: 830px;
+        background-color: gainsboro;  
+    }
+   
+}
