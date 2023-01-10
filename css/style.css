@@ -566,7 +566,8 @@ section.home-initial{
     display: flex;
     flex-direction: row;
     width: 100%;
-    margin-top: 60px;
+    margin-top: 20px;
+    
 
 }
 
@@ -575,6 +576,7 @@ section.home-initial{
     width: 70%;
     margin-top: 20px;
     font-size: 14px;
+    
     
       
 }
@@ -599,5 +601,25 @@ section.home-initial{
    position: relative;
    left: 60px;
     
+}
+
+.contact{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.contact input{
+    padding: 6px 15px;
+    width: 70%;
+    margin-top: 50px;
+    margin-right: 15px;
+}
+
+.contact > label{
+    position: relative;
+    left: 10px;
+    top: 25px;
+
 }
 
