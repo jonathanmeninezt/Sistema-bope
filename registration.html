@@ -131,36 +131,39 @@
               <option value="6">Madureira</option> 
               <option value="7">Méier</option>  
             </select><!--district-->
+          </div><!--localization-->
+          <div class="complement-code">
             <label>Complemento</label>
             <input class="complement" type="text" name="text">
-          </div><!--localization-->
-          <div class="zip-code">
+
             <label>CEP</label>
             <input class="code" type="text" name="text">
-          </div><!--zip-code-->
-
-          <fieldset>
+          </div><!--complement-code-->
+        <div class="fieldset-father"> 
+          <fieldset class="bible">
             <legend> Participa de Estudo Bíblico?</legend>
             <div>
-              <input type = "checkbox" id = "codificação" name = "interesse" value = "codificação">
-              <label for = "coding"> Sim </ label>
+              <input type = "radio" id = "codificação" name = "option" value = "codificação" >
+              <label for = "coding"> Sim </label>
             </div>
             <div>
-              <input type = "checkbox" id = "música" name = "interesse" value = "música">
-              <label for = "music"> Não </ label>
+              <input type = "radio" id = "bible" name = "option" value = "bible" >
+              <label for = "music"> Não </label>
             </div>
-          </fieldset>
-          <fieldset>
+          </fieldset><!--bible-->
+
+          <fieldset class="basic">
             <legend> Recebe cesta básica?</legend>
+            <div class="checkbox-two">
+              <input type = "radio" id = "codificação" name = "option1" value = "codificação">
+              <label for = "coding"> Sim </label>
+            </div><!--checkbox-two-->
             <div>
-              <input type = "checkbox" id = "codificação" name = "interesse" value = "codificação">
-              <label for = "coding"> Sim </ label>
+              <input type = "radio" id = "cesta" name = "option1" value = "cesta">
+              <label for = "music"> Não </label>
             </div>
-            <div>
-              <input type = "checkbox" id = "música" name = "interesse" value = "música">
-              <label for = "music"> Não </ label>
-            </div>
-          </fieldset>
+          </fieldset><!--basic-->
+        </div><!--fieldset-father-->
 
             
           </form><!--map-->

@@ -663,6 +663,7 @@ form.world{
 /* ***********Fim Geral************ */
 
 form.map{
+    display: none;
     margin-top: 50px;
 }
 
@@ -689,7 +690,7 @@ form.map{
 
 .adress input.number{
     padding: 6px 35px;
-    width: 9%;
+    width: 13%;
     font-size: 15px;
     font-weight: 500;
     text-align: left;
@@ -725,30 +726,59 @@ form.map{
 }
 
 .localization input.complement{
-    padding: 6px 45px;
+    padding: 6px 35px;
     margin: 10px 35px;
     font-size: 15px;
     font-weight: 500;
-
 }
-.zip-code{
+
+.complement-code{
     width: 100%;
     margin-left: 37px;
     margin-top: 10px;
+    display: flex;
+    
     
 }
 
-.zip-code input.code{
+.complement-code input.complement{
+    padding: 6px 45px;
+    margin: 10px 20px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.complement-code label{
+    position: relative;
+    top: 15px;
+    left: 12px;
+}
+
+.complement-code input.code{
     padding: 6px 45px;
     margin: 10px 30px;
     font-size: 15px;
     font-weight: 500;
 }
+   
+.fieldset-father{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    gap: 20px;
     
-    
+}
+
+fieldset.bible,.basic{
+    margin-top: 50px;
+    margin-left: 15px;
+    width: 30%;
+} 
 
 
 
+
+/* *********Modo Responsivo********** */
 
 
 @media screen and (max-width:2100px){
