@@ -549,6 +549,7 @@ section.home-initial{
     font-size: 17px;
     font-weight: 500;
     color: rgb(4, 92, 140);
+    cursor: pointer;
 }
 
 .information-one h2 > i{
@@ -565,9 +566,10 @@ section.home-initial{
 
 form.world{
     display: none;
+
 }
 
-.open-registration{
+.show-menu{
     opacity: 1 !important;
 }
 
