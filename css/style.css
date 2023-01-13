@@ -567,6 +567,10 @@ form.world{
     display: none;
 }
 
+.open-registration{
+    opacity: 1 !important;
+}
+
 .name{
     display: flex;
     flex-direction: row;
@@ -666,6 +670,7 @@ form.map{
     display: none;
     margin-top: 50px;
 }
+
 
 .adrees{
     width: 100%;
