@@ -560,7 +560,9 @@ section.home-initial{
     color: rgb(4, 92, 140);
 }
 
-
+form#information{
+    display: none;
+}
 
 /* **********Geral************* */
 
@@ -781,6 +783,63 @@ fieldset.bible,.basic{
     margin-left: 15px;
     width: 30%;
 } 
+
+
+.indication-father{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction:row;
+    margin-top: 50px;
+    margin-left: 50px;
+
+}
+
+.indication-father label{
+    font-size: 19px;
+    color: black;
+    margin: 0 15px;
+    
+
+}
+
+#indication{
+    width: 20%;
+    padding: 8px 25px;
+    font-size: 16px;
+    
+    
+}
+
+#indication > option{
+    font-size: 16px;
+    color: black;
+    
+
+}
+
+.information-father > button{
+    padding: 6px 55px;
+    background-color: #00c853;
+    font-size: 17px;
+    font-weight: 300;
+    font-family:'Montserrat', sans-serif;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-top: 100px;
+    margin-left: 20px;
+    transition: all 0.8s;
+}
+
+.information-father > i{
+    position: relative;
+    top: -0px;
+    left: 60px;
+    background: none;
+    
+}
 
 
 
