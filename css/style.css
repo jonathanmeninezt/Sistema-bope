@@ -200,6 +200,7 @@ section.home-initial{
     margin-top: 20px;
     
     
+    
 }
 
 .box1{
@@ -840,6 +841,28 @@ fieldset.bible,.basic{
     background: none;
     
 }
+
+/* *********Lista de Cadastrados************* */
+
+.list-box{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.list-box table{
+    width: 100%;
+}
+
+.list-box table > caption{
+    margin: 35px 15px;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: rgb(45, 45, 188);
+}
+
 
 
 
