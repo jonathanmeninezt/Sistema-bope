@@ -874,9 +874,14 @@ fieldset.bible,.basic{
     padding-left: 15px;
     text-align: center;
     font-size: 14px;
-    
-
 }  
+
+.list-box thead tr > th{
+    border-bottom: 1px solid;
+    border-collapse:collapse;
+    padding: 5px;
+    background-color: green;
+}
 
 
 .list-box tbody{
@@ -887,11 +892,13 @@ fieldset.bible,.basic{
 .list-box tbody > tr{
     text-align: center;
     font-size: 15px;
-    border-bottom: 1px solid;
+    margin: 40px 10px;
 }
 
 .list-box tbody tr > td{
     border-bottom: 1px solid;
+    padding-top: 5px;
+    
 }
 
 
