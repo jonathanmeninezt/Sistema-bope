@@ -897,11 +897,25 @@ fieldset.bible,.basic{
 
 .list-box tbody tr > td{
     border-bottom: 1px solid;
-    border-right: 1px solid black;
     padding-top: 5px;
     font-size: 15px;
     color: black;
     font-weight: 500;
+    
+}
+
+.list-box tbody tr td > i{
+    position: relative;
+    right: 0;
+    top: 0;
+    transition: all 0.2s ease-in-out;
+    
+    
+}
+
+.list-box tbody tr td > i:hover{
+    transform: scale(0.8);
+    
     
 }
 
