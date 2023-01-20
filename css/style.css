@@ -897,7 +897,11 @@ fieldset.bible,.basic{
 
 .list-box tbody tr > td{
     border-bottom: 1px solid;
+    border-right: 1px solid black;
     padding-top: 5px;
+    font-size: 15px;
+    color: black;
+    font-weight: 500;
     
 }
 
