@@ -399,8 +399,6 @@ section.home-initial{
 .box-metric{
     width: 80%;
     height: 390px;
-    background:url('/img/grafico.webp');
-    background-size: 100% 100%;
     margin-top: 20px;
     margin-left: 100px;
     -webkit-box-shadow: 0px 4px 17px 0px rgba(0,0,0,0.75);
