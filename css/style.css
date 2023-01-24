@@ -458,12 +458,19 @@ section.home-initial{
     padding: 15px 0;
     margin-left: 20px;
     background-color: rgba(5, 200, 222, 0.757);
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 500;
     color: white;
     text-transform: uppercase;
     border: none;
     cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    
+}
+
+.registration-new input.w100:hover{
+    transform: scale(1.1);
+    
 }
 
 .registration-new i{
@@ -480,16 +487,20 @@ section.home-initial{
 .registration-new input.w50{
     width: 40%;
     padding: 15px 5px;
-    font-size: 14px;
-    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
     font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    text-transform:uppercase;
     text-align: left;
     border: 1px solid white;
     cursor: pointer;
     -webkit-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
     box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+    
 }
+
+
 
 .registration-new button.search{
     padding: 18px 45px;
@@ -499,6 +510,12 @@ section.home-initial{
     text-transform: upercase;
     cursor: pointer;
     border: 1px solid white;
+    transition: all 0.5s ease-in-out;
+    margin: 0 15px;    
+}
+
+.registration-new button.search:hover{
+    transform: scale(1.1);
 
     
 }
@@ -507,7 +524,7 @@ section.home-initial{
     color: rgb(222, 222, 222);
     font-size: 16px;
     position: relative;
-    left:-159px;
+    left:-175px;
 
 }
 
@@ -876,7 +893,7 @@ fieldset.bible,.basic{
 
 .list-box thead tr > th{
     padding: 5px;
-    background-color: green;
+    background-color:rgb(4, 92, 140);
 }
 
 
@@ -889,12 +906,14 @@ fieldset.bible,.basic{
     text-align: center;
     font-size: 15px;
     margin: 40px 10px;
+    
 }
 
 .list-box tbody tr > td{
     border-bottom: 1px solid;
     padding-top: 5px;
-    font-size: 15px;
+    font-size: 13px;
+    text-transform: uppercase;
     color: black;
     font-weight: 500;
     
@@ -929,6 +948,9 @@ fieldset.bible,.basic{
 .agendamentos-medic > label{
     font-size: 22px;
     font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    text-transform:uppercase;
+    color: rgb(4, 92, 140);
     
     
 }
@@ -938,22 +960,60 @@ fieldset.bible,.basic{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
 }
 
 .center input#text1{
     width: 40%;
     padding: 8px 10px;
     margin-top: 15px;
+    font-size: 13px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    text-transform:uppercase;
+}
+
+.center input#date-search{
+    margin: 10px 15px 0 15px;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    
 }
 
 button#search1{
-    padding: 18px 45px;
+    padding: 12px 45px;
     border-radius: 0;
     background-color: rgb(57, 195, 130);
     color: white;
     text-transform: upercase;
     cursor: pointer;
     border: 1px solid white;
+    margin-top: 8px;
+    transition: all 0.7s ease-in-out;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    text-transform:uppercase;
+}
+
+button#search1:hover{
+    transform: scale(1.1);
+}
+
+.center i#searchIcon{
+    position: relative;
+    top: 5px;
+    right: 150px;
+    background: none;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    
+}
+
+.center i#searchIcon:hover{
+    transform: scale(1.1);
 }
 
 .google-calendar{
