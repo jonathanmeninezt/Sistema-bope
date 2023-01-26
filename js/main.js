@@ -52,16 +52,34 @@ openRegister3.addEventListener("click",()=>{
 var cadastro = [];
 
 document.querySelector('button.cadastro').addEventListener('click',()=>{
-    var nomePessoa = document.querySelector('input[name=name_pessoa]').value;
-    var dataNascimento = document.querySelector('input[name=date_dn]').value;
+    var nomePessoa = document.querySelector('input[name=name_pessoa]');
+    var dataNascimento = document.querySelector('input[name=date_dn]');
 
    cadastro.push({
-    nome: nomePessoa,
-    data: dataNascimento
+    nome: nomePessoa.value,
+    data: dataNascimento.value
    })
 
-   alert(cadastro[0].nome);
-})
+   let dadosPessoas = document.querySelector('.list-box');
+   dadosPessoas.innerHTML = "";
+
+   cadastro.map(function(val){
+    dadosPessoas.innerHTML+=`
+    <tr>
+    <td>`+val.nome+`</td>
+    <td>`+val.data+`</td>
+    <td>31/08/1990</td>
+    <td>21.747.046-7</td>
+    <td>(47)99705-2643</td>
+    <td>jonathan.meninezt@gmail.com</td>
+    <td><i class="fa-solid fa-pencil"></i></td>
+  </tr>
+    `;
+   })
+
+   nomePessoa.value = "";
+   dataNascimento.value = "";
+});
 
 
 
