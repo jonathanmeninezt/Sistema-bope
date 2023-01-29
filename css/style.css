@@ -110,11 +110,12 @@ header{
     display: flex;
     justify-content: space-between;
     
+    
 }
 
 .top-menu img{
-    width: 7em;
-    height: 6em;
+    width: 6em;
+    height: 5em;
 }
 
 .top-menu i{
@@ -587,6 +588,20 @@ form.world{
 
 }
 
+form.world > button.cadastro{
+    padding: 6px 55px;
+    background-color: #00c853;
+    font-size: 17px;
+    font-weight: 300;
+    font-family:'Montserrat', sans-serif;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-top: 100px;
+    margin-left: 20px;
+    transition: all 0.8s;
+}
+
 .show-menu{
     opacity: 1 !important;
 }
@@ -785,6 +800,8 @@ form.map{
     font-size: 15px;
     font-weight: 500;
 }
+
+
    
 .fieldset-father{
     display: flex;
@@ -894,6 +911,7 @@ fieldset.bible,.basic{
 .list-box thead tr > th{
     padding: 5px;
     background-color:rgb(4, 92, 140);
+    color: white;
 }
 
 
@@ -925,6 +943,9 @@ fieldset.bible,.basic{
     top: 0;
     transition: all 0.2s ease-in-out;
     cursor: pointer;
+    font-size: 13px;
+    background: none;
+    color: rgb(4, 92, 140);
     
     
 }
@@ -938,9 +959,13 @@ fieldset.bible,.basic{
 /* *************Medic************* */
 
 .agendamentos-medic{
-    width: 100%;
+    width: 60%;
+    height: 130px;
+    padding: 25px;
     text-align: center;
-    margin-top: 50px;
+    background-color: rgb(230, 230, 230);
+    margin: 50px auto;
+    
 
     
 }
@@ -951,6 +976,9 @@ fieldset.bible,.basic{
     font-family: 'Montserrat', sans-serif;
     text-transform:uppercase;
     color: rgb(4, 92, 140);
+    border-bottom: 1px solid;
+    
+    
     
     
 }
@@ -1018,7 +1046,13 @@ button#search1:hover{
 
 .google-calendar{
     width: 100%;
-    margin-top: 50px;
+    margin-top: 80px;
+    
+}
+
+.container-calendar{
+    width: 100%;
+    background-color: rgb(230, 230, 230);
 }
 
 
