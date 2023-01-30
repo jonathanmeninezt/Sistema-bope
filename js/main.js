@@ -49,33 +49,73 @@ openRegister3.addEventListener("click",()=>{
 
 // ****************js-cadastros**************
 
-var cadastro = [];
+class Pessoas {
+    constructor(){
+        this.id = 1;
+        this.arrayPessoas = [];
+        
+    }
 
-document.querySelector('button.cadastro').addEventListener('click',()=>{
-    var nomePessoa = document.querySelector('input[name=name_pessoa]');
-    var dataNascimento = document.querySelector('input[name=date_dn]');
-    
-   cadastro.push({
-    nome: nomePessoa.value,
-    data: dataNascimento.value
-   });
+    salvar(){
+      let pesoa = this.lerDados(); 
 
-   let dadosPessoas = document.querySelector('list-box');
-   dadosPessoas.innerHTML = "";
+      if(this.validaCampos(pessoa)){
+        alert('Salvar');
+      }
+      
+      console.log(pessoa);
+    }
 
-   cadastro.map(function(val){
-    dadosPessoas.innerHTML+= `
-    <div class="list-single">
-     <h3>`+val.nome+`</h3>
-     <h3 class="date-new">`+val.data+`</h3>
-    </div><!--list-single-->
-    `;
-   
-   
-    
-   })
+    lerDados(){
+      let pessoas = {}
 
-});
+      pessoa.id = this.id;
+      pessoa.nomePessoa = document.getElementById('name_pessoa').value;
+      pessoa.idadePessoa = document.getElementById('idade').value;
+      pessoa.dataPessoa = document.getElementById('date_dn').value;
+      pessoa.rgPessoa = document.getElementById('rg').value;
+      pessoa.telPessoa = document.getElementById('cel').value;
+      pessoa.emailPessoa = document.getElementById('email').value;
+      
+      return pessoa;
+    }
+
+    validaCampos(){
+        let msg = '';
+
+        if(pessoa.nomePessoa == ''){
+            msg += '- Informe o Nome da Pesssoa \n';
+        }
+        if(pessoa.idadePessoa == ''){
+            msg += '- Informe a Idade da Pesssoa \n';
+        }
+        if(pessoa.dataPessoa == ''){
+            msg += '- Informe a Data de Nascimento da Pesssoa \n';
+        }
+        if(pessoa.rgPessoa == ''){
+            msg += '- Informe o RG da Pesssoa \n';
+        }
+        if(pessoa.telPessoa == ''){
+            msg += '- Informe o Telefone da Pesssoa \n';
+        }
+        if(pessoa.emailPessoa == ''){
+            msg += '- Informe o e-maill da Pesssoa \n';
+        }
+        if(msg != ''){
+            alert(msg);
+            return false;
+        }
+        return true;
+    }
+
+    cancelar(){
+        alert('cancelado');
+    }
+
+
+}
+
+var pessoa = new Pessoas();
 
 
 
