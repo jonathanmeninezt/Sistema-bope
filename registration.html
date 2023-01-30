@@ -110,22 +110,22 @@
           </form><!--world-->
 
           <form id="map" class="map">
-            <div class="adress">
+            <div class="adress-info">
               <label>Endereço</label>
-              <input type="text" name="adress">
+              <input id="rua" type="text" name="adress">
               <label>Número</label>
-              <input class="number" type="number" name="number">
-            </div><!--adress-->
+              <input id="num" type="number" name="number">
+            </div><!--adress-info-->
 
-            <div class="localization">
+            <div class="localization-info">
               <label>Estado</label>
-              <select class="estate" name="estate">
-                <option value=""  disabled selected>Selecione</option>
-                <option value="1">Rio de Janeiro</option>
-              </select><!--estate-->   
+              <select id="uf" class="estate" name="estate">
+                <option  value=""  disabled selected>Selecione</option>
+                <option id="selection_uf" value="1">Rio de Janeiro</option>
+              </select><!--estate-info-->   
 
             <label>Bairro</label>
-            <select class="district" name="district">
+            <select id="district" name="district">
               <option value=""  disabled selected>Selecione</option>
               <option value="1">Realengo</option>
               <option value="2">Bangu</option>
@@ -135,13 +135,13 @@
               <option value="6">Madureira</option> 
               <option value="7">Méier</option>  
             </select><!--district-->
-          </div><!--localization-->
+          </div><!--localization-info-->
           <div class="complement-code">
             <label>Complemento</label>
-            <input class="complement" type="text" name="text">
+            <input id="complement" type="text" name="complement_info">
 
             <label>CEP</label>
-            <input class="code" type="text" name="text">
+            <input id="code" type="text" name="code_info">
           </div><!--complement-code--> 
           </form><!--map-->
 
@@ -218,7 +218,7 @@
                </thead>
                <tbody>
                 <tr>
-                  <td class="center">1</td>
+                  <td>1</td>
                   <td>Jonathan Meninez Teixeira</td>
                   <td>31/08/1990</td>
                   <td>31/08/1990</td>
