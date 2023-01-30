@@ -588,7 +588,7 @@ form.world{
 
 }
 
-form.world > button.cadastro{
+form.world > button{
     padding: 6px 55px;
     background-color: #00c853;
     font-size: 17px;
@@ -606,7 +606,7 @@ form.world > button.cadastro{
     opacity: 1 !important;
 }
 
-.name{
+.name-info{
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -615,7 +615,7 @@ form.world > button.cadastro{
 
 }
 
-.name > input{
+.name-info > input{
     padding: 4px 65px;
     width: 70%;
     margin-top: 20px;
@@ -625,42 +625,42 @@ form.world > button.cadastro{
       
 }
 
-.name .date{
+.name-info #date{
     width: 30%;
     margin-right: 10px;
     margin-top: 20px;
 }
 
-.name label{
+.name-info label{
     margin-left: 50px;
 }
-.document > input{
+.document-info > input{
     margin: 35px 0px 0px 65px;
     padding: 4px 15px;
     font-size: 14px;
 }
 
-.document > label{
+.document-info > label{
     vertical-align: 20px;
    position: relative;
    left: 60px;
     
 }
 
-.contact{
+.contact-info{
     display: flex;
     flex-direction: row;
     
 }
 
-.contact input{
+.contact-info input{
     padding: 6px 15px;
     width: 70%;
     margin-top: 30px;
     margin-right: 15px;
 }
 
-.contact > label{
+.contact-info > label{
     position: relative;
     left: 10px;
     top: 10px;
@@ -928,9 +928,9 @@ fieldset.bible,.basic{
 }
 
 .list-box tbody tr > td{
-    border-bottom: 1px solid;
+    
     padding-top: 5px;
-    font-size: 13px;
+    font-size: 12px;
     text-transform: uppercase;
     color: black;
     font-weight: 500;

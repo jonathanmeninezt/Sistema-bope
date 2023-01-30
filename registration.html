@@ -79,33 +79,34 @@
            </div><!--information-one-->
 
           <form id="world" class="world">
-            <div class="name">
+            <div class="name-info">
               <label>Nome*</label>
-              <input type="text" name="name">
+              <input type="text" id="name_pessoa" name="name_pessoa" placeholder="Nome completo">
               <label>Data de Nascimento</label>
-              <input class="date" type="date" name="date">
-            </div><!--name-->
+              <input id="date_dn" type="date" name="date_dn">
+            </div><!--name-info-->
 
-            <div class="document">
+            <div class="document-info">
               <label>CPF</label>
-              <input type="text" name="document" >
+              <input id="cpf" type="text" name="document_cpf" >
               <label>RG</label>
-              <input type="text" name="document">
-              <label>CNPJ</label>
-              <input type="text" name="document">
-            </div><!--document-->
+              <input id="rg" type="text" name="document_rg">
+              <label>Idade</label>
+              <input id="idade" type="text" name="document_idade">
+            </div><!--document-info-->
 
-            <div class="contact">
+            <div class="contact-info">
               <label>Celular</label>
-              <input type="telefone" name="telefone" placeholder="(47)99999-9999">
+              <input id="cel" type="telefone" name="celular" placeholder="(47)99999-9999">
               <label>Residencial</label>
-              <input type="telefone" name="telefone" placeholder="(47)3333-3333">
+              <input id="tel" type="telefone" name="telefone" placeholder="(47)3333-3333">
               <label>emaill</label>
-              <input type="email" name="email" placeholder="e-maill">
-            </div><!--contact-->
+              <input id="email" type="email" name="email" placeholder="e-maill">
+            </div><!--contact-info-->
 
             
-
+            <button onclick="dados.salvar()">Cadastrar</button>
+            <button onclick="dados.cancelar()">Cancelar</button>
           </form><!--world-->
 
           <form id="map" class="map">
@@ -190,60 +191,48 @@
               </select><!--district-->
              </div><!--indication-father-->
              <i class="fa-solid fa-check"></i>
-             <button>Salvar</button>
+             <button class="cadastro">Cadastrar</button>
             </div>
           </form><!--information-->
 
           <div class="list-box">
-            <table>
+           <table border="1">
               <caption>Cadastrados</caption>
                <colgroup>
+                
+                
+                <col span="2" style="background-color:white;">
+                <col span="1">
                 <col span="0" style="background-color:white;">
-                <col span="2">
-                <col span="1" style="background-color:white;">
+                
                </colgroup>
                <thead>
-                <tr>
+                  <th class="center">ID</th>
                   <th>Nome</th>
                   <th>Idade</th>
                   <th>Data de Nascimento</th>
                   <th>RG</th>
                   <th>Telefone</th>
                   <th>e-maiil</th>
-                  <th>Editar</th>
-                </tr>
+                  <th>Ações</th>
                </thead>
                <tbody>
                 <tr>
+                  <td class="center">1</td>
                   <td>Jonathan Meninez Teixeira</td>
-                  <td>32</td>
+                  <td>31/08/1990</td>
                   <td>31/08/1990</td>
                   <td>21.747.046-7</td>
                   <td>(47)99705-2643</td>
                   <td>jonathan.meninezt@gmail.com</td>
-                  <td><i class="fa-solid fa-pencil"></i></td>
+                  <td>
+                    <i class="fa-solid fa-pencil"></i>
+                    <i class="fa-solid fa-trash-can"></i>
+                  </td> 
                 </tr>
-                <tr>
-                  <td>joão paulo</td>
-                  <td>22</td>
-                  <td>31/08/1990</td>
-                  <td>21.747.046-7</td>
-                  <td>(47)99705-2643</td>
-                  <td>jonathan.meninezt@gmail.com</td>
-                  <td><i class="fa-solid fa-pencil"></i></td>
-                </tr>
-                <tr>
-                  <td>everton ribeiro</td>
-                  <td>26</td>
-                  <td>31/08/1990</td>
-                  <td>21.747.046-7</td>
-                  <td>(47)99705-2643</td>
-                  <td>jonathan.meninezt@gmail.com</td>
-                  <td><i class="fa-solid fa-pencil"></i></td>
-                </tr>
-               
+                
                </tbody>
-            </table>
+            </table> 
           </div><!--list-box-->
 
           
