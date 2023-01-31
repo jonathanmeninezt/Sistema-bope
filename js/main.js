@@ -13,9 +13,13 @@ openRegister.addEventListener("click",()=>{
     if(registro.style.display === "none"){
         registro.style.display = "block";
      
+
+
+
     }else{
         registro.style.display = "none";    
     }
+    
 });   
 
 
@@ -50,8 +54,9 @@ openRegister3.addEventListener("click",()=>{
 // ****************js-cadastros**************
 
 class Pessoas {
+    
     constructor(){
-        this.id = 1;
+        this.id = 0;
         this.arrayPessoas = [];
         
     }
@@ -60,10 +65,51 @@ class Pessoas {
       let pesoa = this.lerDados(); 
 
       if(this.validaCampos(pessoa)){
-        alert('Salvar');
+        this.adicionar(pessoa);
       }
       
-      console.log(pessoa);
+      this.listaTabela();
+    }
+
+    listaTabela(){
+        let tbody = document.getElementById('tbody');
+        tbody.innerText = '';
+
+        for(let i = 0; i < this.arrayPessoas.length; i++){
+            let tr = tbody.insertRow();
+
+            let td_id = tr.insertCell();
+            let td_name_pessoa = tr.insertCell();
+            let td_idade = tr.insertCell();
+            let td_date_dn = tr.insertCell();
+            let td_rg = tr.insertCell();
+            let td_cel = tr.insertCell();
+            let td_email = tr.insertCell();
+            let td_acoes = tr.insertCell();
+
+            td_id.innerText = this.arrayPessoas[i].id;
+            td_name_pessoa.innerText = this.arrayPessoas[i].nomePessoa;
+            td_idade.innerText = this.arrayPessoas[i].idadePessoa;
+            td_date_dn.innerText = this.arrayPessoas[i].dataPessoa;
+            td_rg.innerText = this.arrayPessoas[i].rgPessoa;
+            td_cel.innerText = this.arrayPessoas[i].celPessoa;
+            td_email.innerText = this.arrayPessoas[i].emailPessoa;
+
+            td_id.clasList.add('center');
+
+            
+
+            let imgEdit = document.createElement('img');
+            imgEdit.src ='/img/edit.png';
+            
+            
+            td_acoes.appendChild(imgEdit);
+        }
+    }
+
+    adicionar(pessoa){
+        this.arrayPessoas.push(pessoa);
+        this.id++;
     }
 
     lerDados(){
@@ -74,7 +120,7 @@ class Pessoas {
       pessoa.idadePessoa = document.getElementById('idade').value;
       pessoa.dataPessoa = document.getElementById('date_dn').value;
       pessoa.rgPessoa = document.getElementById('rg').value;
-      pessoa.telPessoa = document.getElementById('cel').value;
+      pessoa.celPessoa = document.getElementById('cel').value;
       pessoa.emailPessoa = document.getElementById('email').value;
       
       return pessoa;
@@ -95,7 +141,7 @@ class Pessoas {
         if(pessoa.rgPessoa == ''){
             msg += '- Informe o RG da Pesssoa \n';
         }
-        if(pessoa.telPessoa == ''){
+        if(pessoa.celPessoa == ''){
             msg += '- Informe o Telefone da Pesssoa \n';
         }
         if(pessoa.emailPessoa == ''){
@@ -109,7 +155,14 @@ class Pessoas {
     }
 
     cancelar(){
-        alert('cancelado');
+        pessoa.nomePessoa = document.getElementById('name_pessoa').value = '';
+        pessoa.idadePessoa = document.getElementById('idade').value = '';
+        pessoa.dataPessoa = document.getElementById('date_dn').value = '';
+        pessoa.rgPessoa = document.getElementById('rg').value = '';
+        pessoa.celPessoa = document.getElementById('cel').value = '';
+        pessoa.emailPessoa = document.getElementById('email').value = '';
+        pessoa.cpfPessoa = document.getElementById('cpf').value = '';
+        pessoa.telPessoa = document.getElementById('tel').value = '';
     }
 
 
