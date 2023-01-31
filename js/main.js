@@ -69,11 +69,13 @@ class Pessoas {
       }
       
       this.listaTabela();
+      this.cancelar();
+      
     }
 
     listaTabela(){
         let tbody = document.getElementById('tbody');
-        tbody.innerText = '';
+        
 
         for(let i = 0; i < this.arrayPessoas.length; i++){
             let tr = tbody.insertRow();
@@ -99,8 +101,8 @@ class Pessoas {
 
             
 
-            let imgEdit = document.createElement('img');
-            imgEdit.src ='/img/edit.png';
+            let imgEdit = document.createElement('i');
+            
             
             
             td_acoes.appendChild(imgEdit);
