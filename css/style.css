@@ -584,7 +584,7 @@ form#information{
 /* **********Geral************* */
 
 form.world{
-    display: none;
+   display: none;
 
 }
 
@@ -713,12 +713,12 @@ form.map{
 
 }
 
-.adress label{
+.adress-info label{
     position: relative;
     left: 15px;
 }
 
-.adress > input{
+.adress-info > input{
     width: 50%;
     padding: 6px 65px;
     margin: 0 25px;
@@ -728,7 +728,7 @@ form.map{
     
 }
 
-.adress input.number{
+.adress-info input#num{
     padding: 6px 35px;
     width: 13%;
     font-size: 15px;
@@ -736,7 +736,7 @@ form.map{
     text-align: left;
 }
 
-.localization{
+.localization-info{
     width: 100%;
     margin-top: 20px;
     margin-left: 11px;
@@ -744,28 +744,28 @@ form.map{
     flex-direction: row;
 }
 
-.localization label{
+.localization-info label{
     position: relative;
     left: 30px;
     top: 15px;
     
 }
 
-.localization > select.estate{
+.localization-info > select.estate{
     padding: 6px 45px;
     margin: 10px 40px;
     font-size: 15px;
     font-weight: 500;
 }
 
-.localization > select.district{
+.localization-info > select#district{
     padding: 6px 45px;
     margin: 10px 40px;
     font-size: 15px;
     font-weight: 500;
 }
 
-.localization input.complement{
+.localization-info input.complement{
     padding: 6px 35px;
     margin: 10px 35px;
     font-size: 15px;
@@ -781,7 +781,7 @@ form.map{
     
 }
 
-.complement-code input.complement{
+.complement-code input#complement_dig{
     padding: 6px 45px;
     margin: 10px 20px;
     font-size: 15px;
@@ -794,7 +794,7 @@ form.map{
     left: 12px;
 }
 
-.complement-code input.code{
+.complement-code input#code{
     padding: 6px 45px;
     margin: 10px 30px;
     font-size: 15px;
@@ -948,11 +948,24 @@ fieldset.bible,.basic{
     color: rgb(4, 92, 140);
     
     
+    
 }
 
 .list-box tbody tr td > i:hover{
     transform: scale(0.8);
     
+    
+}
+
+i#icon_salvar{
+    position: relative;
+    left: 70px;
+    top: 0;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    font-size: 13px;
+    background: none;
+    color: rgb(4, 92, 140);
     
 }
 
@@ -1053,6 +1066,20 @@ button#search1:hover{
 .container-calendar{
     width: 100%;
     background-color: rgb(230, 230, 230);
+}
+
+
+/* ************Search************ */
+
+.search-biblic-form{
+    width:100%;
+}
+
+.search-biblic-form > form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 
