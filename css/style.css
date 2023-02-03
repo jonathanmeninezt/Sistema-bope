@@ -1075,11 +1075,21 @@ button#search1:hover{
     width:100%;
 }
 
-.search-biblic-form > form{
-    width: 100%;
+.center-search{
+    width: 70%;
+    background-color: gray;
+    margin: 20px auto;
+    padding: 10px 10px;
+}
+
+form#form-pesquisa{
+    width: 30%;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    gap: 20px;
+    margin: 30px auto;
+   
+
 }
 
 
