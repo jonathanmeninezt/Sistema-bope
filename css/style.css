@@ -1130,6 +1130,28 @@ input#idade_search{
        
 }
 
+input#endereço_search{
+    padding: 7px 5px;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+input#number_search{
+    width: 28%;
+    padding: 7px 2px;
+    font-size: 13px;
+    font-weight: 700;
+    text-align: center;
+}
+
+input#bairro_search{
+    padding: 7px 4px;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
 
 /* *********Modo Responsivo********** */
 
