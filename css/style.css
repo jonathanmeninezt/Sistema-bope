@@ -977,7 +977,7 @@ i#icon_salvar{
     padding: 25px;
     text-align: center;
     background-color: rgb(230, 230, 230);
-    margin: 50px auto;
+    margin: 10px auto;
     
 
     
@@ -1059,9 +1059,10 @@ button#search1:hover{
 
 .google-calendar{
     width: 100%;
-    margin-top: 80px;
-    
+    margin-top: 40px;
+        
 }
+
 
 .container-calendar{
     width: 100%;
