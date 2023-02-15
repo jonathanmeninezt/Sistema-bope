@@ -1028,7 +1028,7 @@ i#icon_salvar{
     margin: 10px 15px 0  0;
 }
 
-button#search1{
+button#button_calendar{
     padding: 12px 45px;
     border-radius: 0;
     background-color: rgb(57, 195, 130);
@@ -1037,7 +1037,6 @@ button#search1{
     cursor: pointer;
     border: 1px solid white;
     margin-top: 8px;
-    transition: all 0.7s ease-in-out;
     cursor: pointer;
     font-size: 12px;
     font-weight: 500;
@@ -1045,24 +1044,18 @@ button#search1{
     text-transform:uppercase;
 }
 
-button#search1:hover{
-    transform: scale(1.1);
+button#button_calendar:hover{
+    background-color:rgb(54, 175, 119);
 }
 
-.center i#searchIcon{
+.center i#icon_calendar{
     position: relative;
     top: 5px;
     right: 150px;
     background: none;
-    transition: all 0.2s ease-in-out;
     cursor: pointer;
     
 }
-
-.center i#searchIcon:hover{
-    transform: scale(1.1);
-}
-
 
 .google-calendar{
     width: 100%;
