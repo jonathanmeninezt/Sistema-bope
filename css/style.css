@@ -1078,6 +1078,7 @@ button#button_calendar:hover{
 
 .search-biblic-form{
     width:100%;
+   
 }
 
 .center-search{
@@ -1089,15 +1090,17 @@ button#button_calendar:hover{
 
 .h2-decoration{
     width: 100%;
-    background-color: rgb(158, 148, 148);
-    padding: 10px;
+    background-image: url('/img/fundo.jpeg');
+    background-size: 100% 100%;
+    padding: 40px;
+
 }
 
 .h2-decoration > h2{
     font-size: 17px;
     font-weight: 500;
     text-transform: uppercase;
-    color: rgb(4, 92, 140);
+    color: rgb(225, 225, 225);
     text-align: center;
 }
 
