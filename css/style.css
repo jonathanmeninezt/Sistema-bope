@@ -994,6 +994,7 @@ i#icon_salvar{
     
     
     
+    
 }
 
 .center{
@@ -1004,9 +1005,9 @@ i#icon_salvar{
     align-items: center;
 }
 
-.center input#text1{
+.center input#name_agend{
     width: 40%;
-    padding: 8px 10px;
+    padding: 7px 10px;
     margin-top: 15px;
     font-size: 13px;
     font-weight: 500;
@@ -1014,12 +1015,17 @@ i#icon_salvar{
     text-transform:uppercase;
 }
 
-.center input#date-search{
+.center input#date_agend{
     margin: 10px 15px 0 15px;
     font-size: 15px;
     font-weight: 500;
     font-family: 'Montserrat', sans-serif;
     
+}
+
+.center select#doctor_medic{
+    padding: 4px 10px;
+    margin: 10px 15px 0  0;
 }
 
 button#search1{
@@ -1056,6 +1062,7 @@ button#search1:hover{
 .center i#searchIcon:hover{
     transform: scale(1.1);
 }
+
 
 .google-calendar{
     width: 100%;
