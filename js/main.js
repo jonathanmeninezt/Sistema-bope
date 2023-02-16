@@ -51,6 +51,26 @@ openRegister3.addEventListener("click",()=>{
 
 
 
+
+// ************campo de telefone***********
+
+const handlePhone = (event) => {
+    let input = event.target
+    input.value = phoneMask(input.value)
+  }
+  
+  const phoneMask = (value) => {
+    if (!value) return ""
+    value = value.replace(/\D/g,'')
+    value = value.replace(/(\d{2})(\d)/,"($1) $2")
+    value = value.replace(/(\d)(\d{4})$/,"$1-$2")
+    return value
+  }
+
+
+//   **********************************
+
+
 // ****************js-cadastros**************
 
 class Pessoas {
@@ -76,6 +96,7 @@ class Pessoas {
     listaTabela(){
         let tbody = document.getElementById('tbody');
         
+        
 
         for(let i = 0; i < this.arrayPessoas.length; i++){
             let tr = tbody.insertRow();
@@ -96,13 +117,13 @@ class Pessoas {
             td_rg.innerText = this.arrayPessoas[i].rgPessoa;
             td_cel.innerText = this.arrayPessoas[i].celPessoa;
             td_email.innerText = this.arrayPessoas[i].emailPessoa;
+            td_acoes.innerText = this.arrayPessoas[i].acoesPessoa;
 
             td_id.clasList.add('center');
 
             
 
             let imgEdit = document.createElement('i');
-            
             
             
             td_acoes.appendChild(imgEdit);
@@ -124,6 +145,7 @@ class Pessoas {
       pessoa.rgPessoa = document.getElementById('rg').value;
       pessoa.celPessoa = document.getElementById('cel').value;
       pessoa.emailPessoa = document.getElementById('email').value;
+      pessoa.acoesPessoa = document.getElementById('icon_pencil');
       
       return pessoa;
     }
@@ -165,6 +187,7 @@ class Pessoas {
         pessoa.emailPessoa = document.getElementById('email').value = '';
         pessoa.cpfPessoa = document.getElementById('cpf').value = '';
         pessoa.telPessoa = document.getElementById('tel').value = '';
+        
     }
 
 

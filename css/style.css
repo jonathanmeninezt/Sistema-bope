@@ -620,10 +620,9 @@ form.world > button{
     padding: 4px 65px;
     width: 70%;
     margin-top: 20px;
-    font-size: 14px;
-    
-    
-      
+    font-size: 12px;
+    text-transform: uppercase;
+     
 }
 
 .name-info #date{
@@ -1167,7 +1166,7 @@ input#bairro_search{
     font-size: 10px;
     font-weight: 700;
     text-transform: uppercase;
-    
+}
 
 .search-biblic-form form > label{
     font-size: 13px;

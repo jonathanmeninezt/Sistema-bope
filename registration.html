@@ -97,9 +97,9 @@
 
             <div class="contact-info">
               <label>Celular</label>
-              <input id="cel" type="telefone" name="celular" placeholder="(47)99999-9999">
+              <input id="cel"  maxlength="15" onkeyup="handlePhone(event)" type="telefone" name="celular" placeholder="(47)99999-9999">
               <label>Residencial</label>
-              <input id="tel" type="telefone" name="telefone" placeholder="(47)3333-3333">
+              <input id="tel" maxlength="15" onkeyup="handlePhone(event)" type="telefone" name="telefone" placeholder="(47)3333-3333">
               <label>emaill</label>
               <input id="email" type="email" name="email" placeholder="e-maill">
             </div><!--contact-info-->
