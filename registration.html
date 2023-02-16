@@ -104,9 +104,9 @@
               <input id="email" type="email" name="email" placeholder="e-maill">
             </div><!--contact-info-->
 
-            
-            <button onclick="pessoa.salvar()">Salvar</button>
-            <button onclick="pessoa.cancelar()">Cancelar</button>
+            <i id="icon_salvar" class="fa-solid fa-check"></i>
+            <button type="button" onclick="pessoa.salvar()">Salvar</button>
+            <button type="button" onclick="pessoa.cancelar()">Cancelar</button>
           </form><!--world-->
 
           <form id="map" class="map">
@@ -138,7 +138,7 @@
           </div><!--localization-info-->
           <div class="complement-code">
             <label>Complemento</label>
-            <input id="complement" type="text" name="complement_info">
+            <input id="complement_dig" type="text" name="complement_info">
 
             <label>CEP</label>
             <input id="code" type="text" name="code_info">
@@ -217,11 +217,12 @@
                   <th>Ações</th>
                </thead>
                <tbody id="tbody">
-                
-                  <!-- <td>
-                    <i class="fa-solid fa-pencil"></i>
-                    <i class="fa-solid fa-trash-can"></i>
-                  </td>  -->
+                 
+                  
+                    <i style="display: none;" id="icon_pencil" class="fa-solid fa-pencil"></i>
+                    <i style="display: none;" class="fa-solid fa-trash-can"></i>
+                  
+               
               
                 
                </tbody>

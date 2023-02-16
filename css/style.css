@@ -465,12 +465,13 @@ section.home-initial{
     text-transform: uppercase;
     border: none;
     cursor: pointer;
-    transition: all 0.5s ease-in-out;
+    transition: 0.5s;
+    
     
 }
 
 .registration-new input.w100:hover{
-    transform: scale(1.1);
+    background-color: rgba(7, 174, 193, 0.757);
     
 }
 
@@ -511,12 +512,12 @@ section.home-initial{
     text-transform: upercase;
     cursor: pointer;
     border: 1px solid white;
-    transition: all 0.5s ease-in-out;
+    transition: 0.5s;
     margin: 0 15px;    
 }
 
 .registration-new button.search:hover{
-    transform: scale(1.1);
+    background-color: rgb(46, 162, 108);
 
     
 }
