@@ -1,3 +1,21 @@
+// Validação login e senha 
+
+function logar(){
+    var login = document.getElementById('login').value;
+    var senha = document.getElementById('senha').value;
+
+    if(login == "jonathan.meninez" && senha == "bope123"){
+        alert('Seja bem vindos!');
+        location.href = "home.html";
+    }else{
+        alert('Login ou Senha incorretos');
+    }
+}
+
+// ************************************
+
+
+
 var openRegister = document.getElementById("openWorld");
 var openRegister2 = document.getElementById("openMap");
 var openRegister3 = document.getElementById("openInformation");
@@ -72,12 +90,12 @@ const handlePhone = (event) => {
 
 // **************CPF****************
 
-var cpf = document.getElementById('cpf');
-
-cpf.addEventListener("blur", function(){
-   if(cpf.value) cpf.value = cpf.value.match(/.{1,3}/g).join(".").replace(/\.(?=[^.]*$)/,"-");
-});
-
+let value_cpf = document.querySelector('#cpf');  
+ value_cpf.addEventListener("keydown", function(e) {
+   if (e.key > "a" && e.key < "z") {
+     e.preventDefault();
+   }
+ });
 
 // ****************js-cadastros**************
 
