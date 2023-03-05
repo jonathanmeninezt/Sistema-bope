@@ -44,7 +44,7 @@ img.logo{
    
 }
 
-input.login{
+input#login{
     display: flex;
     justify-content: left;
     padding: 10px 55px;
@@ -53,7 +53,7 @@ input.login{
     font-size: 15px;
 }
 
-input.senha{
+input#senha{
     display: flex;
     justify-content: left;
     padding: 10px 55px;
@@ -1085,12 +1085,13 @@ button#button_calendar:hover{
 
 .search-biblic-form{
     width:100%;
+    
    
 }
 
 .center-search{
     width: 70%;
-    background-color: rgb(229, 229, 229);
+    background-color: rgb(230, 230, 230);
     margin: 20px auto;
     padding: 10px 10px;
 }
@@ -1112,22 +1113,28 @@ button#button_calendar:hover{
 }
 
 form#form-pesquisa{
-    width: 30%;
+    width: 100%;
+    height: 400px;
     display: flex;
-    flex-direction: column;
-    gap: 20px;
-    margin: 30px auto;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 25px;
+
+   
    
 }
 
 form#form-pesquisa > input#name_search , input#mom_search{
-    padding: 7px 10px;
+    padding: 7px 45px;
     font-size: 10px;
     font-weight: 600;
     text-transform: uppercase;
 
    
 }
+
+
 
 input#date_search{
     width: 50%;
@@ -1153,7 +1160,7 @@ input#tel_search{
 }
 
 input#endereço_search{
-    padding: 7px 5px;
+    padding: 7px 45px;
     font-size: 10px;
     font-weight: 700;
     text-transform: uppercase;
@@ -1176,7 +1183,7 @@ input#bairro_search{
 }
 
 .search-biblic-form form > label{
-    font-size: 13px;
+    font-size: 15px;
 }
 
 
