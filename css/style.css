@@ -14,7 +14,7 @@ body.index{
     width:100%;
     background-image: url('/img/fundo.jpeg');
     background-size: 100% 100%;
-    
+
 }
 
 section.container{
@@ -34,14 +34,14 @@ section.container{
     align-items: center;
     margin-top: 50px;
     gap: 8px;
-    
+
 
 }
 
 img.logo{
     width: 22em;
     height: 20em;
-   
+
 }
 
 input#login{
@@ -73,7 +73,7 @@ i{
     height: 27px;
     text-align: center;
     padding-top: 5px;
-    
+
 }
 
 button.login{
@@ -109,8 +109,8 @@ header{
     height: 100px;
     display: flex;
     justify-content: space-between;
-    
-    
+
+
 }
 
 .top-menu img{
@@ -120,7 +120,7 @@ header{
 
 .top-menu i{
     cursor: pointer;
-    
+
 }
 
 section.home-initial{
@@ -134,7 +134,7 @@ section.home-initial{
 .container-primary{
     width: 20%;
     height: 630px;
-    background-color: gainsboro;  
+    background-color: gainsboro;
 }
 
 .container-primary h3{
@@ -146,7 +146,7 @@ section.home-initial{
     cursor: pointer;
     color: rgb(255, 17, 17);
     transition: 0.6s;
-    
+
 }
 
 .container-primary h3:hover{
@@ -161,12 +161,12 @@ section.home-initial{
 
 .primary-box{
     width: 100%;
-    height: 125px; 
+    height: 125px;
     background-image:url('/img/fundo.jpeg');
     background-size: 100% 100%;
     display: flex;
     align-items: center;
-    
+
 }
 
 .primary-box h3{
@@ -175,7 +175,7 @@ section.home-initial{
     font-weight: 400;
     margin-left: 17px;
     color: whitesmoke;
-    
+
 }
 
 
@@ -186,8 +186,8 @@ section.home-initial{
     margin-left: 20px;
     border-radius: 40px;
 
-   
-    
+
+
 }
 
 
@@ -195,7 +195,7 @@ section.home-initial{
     width: 80%;
     height: 600px;
     background-color: #f5f5f5;
-    
+
 }
 
 .box{
@@ -206,9 +206,9 @@ section.home-initial{
     gap: 30px;
     align-items: center;
     margin-top: 20px;
-    
-    
-    
+
+
+
 }
 
 .box1{
@@ -219,7 +219,7 @@ section.home-initial{
     -webkit-box-shadow: 0px 4px 17px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 4px 17px 0px rgba(0,0,0,0.75);
     box-shadow: 0px 4px 17px 0px rgba(0,0,0,0.75);
-    transition: all 0.5s ease-in-out;    
+    transition: all 0.5s ease-in-out;
 }
 
 .box1:hover{
@@ -230,11 +230,11 @@ section.home-initial{
    font-size: 30px;
    background-color: transparent;
    color: rgb(113, 113, 113);
-   transition: 0.6s; 
+   transition: 0.6s;
 }
 
 #icon1:hover{
-    color: rgb(208, 208, 215);  
+    color: rgb(208, 208, 215);
 }
 
 .box1 h2{
@@ -243,19 +243,19 @@ section.home-initial{
     font-weight: 400;
     margin-left: 60px;
     margin-top: 20px;
-    color: whitesmoke    
+    color: whitesmoke
 }
 
 .box1 span{
-    margin-top: 100px; 
+    margin-top: 100px;
     font-size: 30px;
     font-weight: 900;
-    font-family:'Montserrat', sans-serif; 
-    position: relative; 
+    font-family:'Montserrat', sans-serif;
+    position: relative;
     right:110px;
     color: rgba(77, 57, 57, 0.777);
-    
-    
+
+
 }
 
 
@@ -267,44 +267,44 @@ section.home-initial{
     -webkit-box-shadow: 0px 4px 17px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 4px 17px 0px rgba(0,0,0,0.75);
     box-shadow: 0px 4px 17px 0px rgba(0,0,0,0.75);
-    transition: all 0.5s ease-in-out;    
+    transition: all 0.5s ease-in-out;
 }
 
 .box2:hover{
     transform: scale(1.1);
 }
-   
+
 
 
 #icon2{
     font-size: 30px;
     background-color: transparent;
     color: rgb(113, 113, 113);
-    transition: 0.6s; 
+    transition: 0.6s;
  }
- 
+
  #icon2:hover{
-     color: rgb(208, 208, 215);  
+     color: rgb(208, 208, 215);
  }
- 
+
  .box2 h2{
      font-size: 22px;
      font-family:'Montserrat', sans-serif;
      font-weight: 400;
      margin-left: 90px;
      margin-top: 20px;
-     color: whitesmoke    
+     color: whitesmoke
  }
 
  .box2 span{
-    margin-top: 100px; 
+    margin-top: 100px;
     font-size: 25px;
     font-weight: 900;
-    font-family:'Montserrat', sans-serif; 
-    position: relative; 
+    font-family:'Montserrat', sans-serif;
+    position: relative;
     right:110px;
     color: rgba(77, 57, 57, 0.777);
-    
+
 }
 
 .box3{
@@ -315,45 +315,45 @@ section.home-initial{
     -webkit-box-shadow: 0px 4px 17px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 4px 17px 0px rgba(0,0,0,0.75);
     box-shadow: 0px 4px 17px 0px rgba(0,0,0,0.75);
-    transition: all 0.5s ease-in-out;    
+    transition: all 0.5s ease-in-out;
 }
 
 .box3:hover{
     transform: scale(1.1);
 }
-    
+
 
 
 #icon3{
     font-size: 30px;
     background-color: transparent;
     color: rgb(113, 113, 113);
-    transition: 0.6s; 
+    transition: 0.6s;
  }
- 
+
  #icon3:hover{
-     color: rgb(208, 208, 215);  
+     color: rgb(208, 208, 215);
  }
- 
+
  .box3 h2{
      font-size: 22px;
      font-family:'Montserrat', sans-serif;
      font-weight: 400;
      margin-left: 90px;
      margin-top: 20px;
-     color: whitesmoke   
+     color: whitesmoke
  }
 
 
  .box3 span{
-    margin-top: 100px; 
+    margin-top: 100px;
     font-size: 30px;
     font-weight: 900;
-    font-family:'Montserrat', sans-serif; 
-    position: relative; 
+    font-family:'Montserrat', sans-serif;
+    position: relative;
     right:130px;
     color: rgba(77, 57, 57, 0.777);
-    
+
 }
 
 .box4{
@@ -364,26 +364,26 @@ section.home-initial{
     -webkit-box-shadow: 0px 4px 17px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 4px 17px 0px rgba(0,0,0,0.75);
     box-shadow: 0px 4px 17px 0px rgba(0,0,0,0.75);
-    transition: all 0.5s ease-in-out;    
+    transition: all 0.5s ease-in-out;
 }
 
 .box4:hover{
     transform: scale(1.1);
 }
-   
+
 
 
 #icon4{
     font-size: 30px;
     background-color: transparent;
     color: rgb(113, 113, 113);
-    transition: 0.6s; 
+    transition: 0.6s;
  }
- 
+
  #icon4:hover{
-     color: rgb(208, 208, 215);  
+     color: rgb(208, 208, 215);
  }
- 
+
  .box4 h2{
      font-size: 22px;
      font-family:'Montserrat', sans-serif;
@@ -394,14 +394,14 @@ section.home-initial{
  }
 
  .box4 span{
-    margin-top: 100px; 
+    margin-top: 100px;
     font-size: 30px;
     font-weight: 900;
-    font-family:'Montserrat', sans-serif; 
-    position: relative; 
+    font-family:'Montserrat', sans-serif;
+    position: relative;
     right:130px;
     color: rgba(77, 57, 57, 0.777);
-    
+
 }
 
 .box-metric{
@@ -436,10 +436,10 @@ section.home-initial{
     margin-left: 50px;
     margin-top: 25px;
     padding-top: 8px;
-    
-    
-    
-    
+
+
+
+
 }
 
 .registration h2{
@@ -452,13 +452,13 @@ section.home-initial{
     font-weight: 500;
     text-transform: uppercase;
     color: rgb(4, 92, 140);
-    
+
 }
 
 .registration-new{
     margin: 20px 0;
-    
-   
+
+
 }
 
 .registration-new input.w100{
@@ -473,13 +473,13 @@ section.home-initial{
     border: none;
     cursor: pointer;
     transition: 0.5s;
-    
-    
+
+
 }
 
 .registration-new input.w100:hover{
     background-color: rgba(7, 174, 193, 0.757);
-    
+
 }
 
 .registration-new i{
@@ -490,7 +490,7 @@ section.home-initial{
     background: none;
     color: white;
     cursor: pointer;
-    
+
 }
 
 .registration-new input.w50{
@@ -506,7 +506,7 @@ section.home-initial{
     -webkit-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
     box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
-    
+
 }
 
 
@@ -520,13 +520,13 @@ section.home-initial{
     cursor: pointer;
     border: 1px solid white;
     transition: 0.5s;
-    margin: 0 15px;    
+    margin: 0 15px;
 }
 
 .registration-new button.search:hover{
     background-color: rgb(46, 162, 108);
 
-    
+
 }
 
 #search{
@@ -543,7 +543,7 @@ section.home-initial{
     background-color: rgb(230, 230, 230);
     margin-top: 20px;
     margin-left: 50px;
-   
+
 }
 
 .container-tri > h2{
@@ -556,8 +556,8 @@ section.home-initial{
     font-weight: 500;
     text-transform: uppercase;
     color: rgb(4, 92, 140);
-    
-    
+
+
 }
 
 .information-one{
@@ -619,7 +619,7 @@ form.world > button{
     flex-direction: row;
     width: 100%;
     margin-top: 20px;
-    
+
 
 }
 
@@ -629,7 +629,7 @@ form.world > button{
     margin-top: 20px;
     font-size: 12px;
     text-transform: uppercase;
-     
+
 }
 
 .name-info #date{
@@ -651,13 +651,13 @@ form.world > button{
     vertical-align: 20px;
    position: relative;
    left: 60px;
-    
+
 }
 
 .contact-info{
     display: flex;
     flex-direction: row;
-    
+
 }
 
 .contact-info input{
@@ -698,12 +698,12 @@ form.world > button{
     top: -0px;
     left: 60px;
     background: none;
-    
+
 }
 
 .button-save > button:hover{
     background-color: #029a41;
-    
+
 }
 
 /* ***********Fim Geral************ */
@@ -732,7 +732,7 @@ form.map{
     font-size: 15px;
     font-weight: 500;
 
-    
+
 }
 
 .adress-info input#num{
@@ -755,7 +755,7 @@ form.map{
     position: relative;
     left: 30px;
     top: 15px;
-    
+
 }
 
 .localization-info > select.estate{
@@ -784,8 +784,8 @@ form.map{
     margin-left: 37px;
     margin-top: 10px;
     display: flex;
-    
-    
+
+
 }
 
 .complement-code input#complement_dig{
@@ -809,20 +809,20 @@ form.map{
 }
 
 
-   
+
 .fieldset-father{
     display: flex;
     flex-direction:row;
     justify-content: center;
     gap: 20px;
-    
+
 }
 
 fieldset.bible,.basic{
     margin-top: 50px;
     margin-left: 15px;
     width: 30%;
-} 
+}
 
 
 .indication-father{
@@ -840,7 +840,7 @@ fieldset.bible,.basic{
     font-size: 19px;
     color: black;
     margin: 0 15px;
-    
+
 
 }
 
@@ -848,14 +848,14 @@ fieldset.bible,.basic{
     width: 20%;
     padding: 8px 25px;
     font-size: 16px;
-    
-    
+
+
 }
 
 #indication > option{
     font-size: 16px;
     color: black;
-    
+
 
 }
 
@@ -878,7 +878,7 @@ fieldset.bible,.basic{
     top: -0px;
     left: 60px;
     background: none;
-    
+
 }
 
 /* *********Lista de Cadastrados************* */
@@ -900,20 +900,20 @@ fieldset.bible,.basic{
     font-weight: 500;
     text-transform: uppercase;
     color: rgb(4, 92, 140);
-    
-    
+
+
 }
 
 .list-box thead{
     width:100%;
-    
+
 }
 
 .list-box thead > tr{
     padding-left: 15px;
     text-align: center;
     font-size: 14px;
-}  
+}
 
 .list-box thead tr > th{
     padding: 5px;
@@ -931,17 +931,17 @@ fieldset.bible,.basic{
     text-align: center;
     font-size: 15px;
     margin: 40px 10px;
-    
+
 }
 
 .list-box tbody tr > td{
-    
+
     padding-top: 5px;
     font-size: 12px;
     text-transform: uppercase;
     color: black;
     font-weight: 500;
-    
+
 }
 
 .list-box tbody tr td > i{
@@ -953,15 +953,15 @@ fieldset.bible,.basic{
     font-size: 13px;
     background: none;
     color: rgb(4, 92, 140);
-    
-    
-    
+
+
+
 }
 
 .list-box tbody tr td > i:hover{
     transform: scale(0.8);
-    
-    
+
+
 }
 
 i#icon_salvar{
@@ -973,7 +973,7 @@ i#icon_salvar{
     font-size: 13px;
     background: none;
     color: rgb(4, 92, 140);
-    
+
 }
 
 /* *************Medic************* */
@@ -985,9 +985,9 @@ i#icon_salvar{
     text-align: center;
     background-color: rgb(230, 230, 230);
     margin: 10px auto;
-    
 
-    
+
+
 }
 
 .agendamentos-medic > label{
@@ -997,11 +997,11 @@ i#icon_salvar{
     text-transform:uppercase;
     color: rgb(4, 92, 140);
     border-bottom: 1px solid;
-    
-    
-    
-    
-    
+
+
+
+
+
 }
 
 .center{
@@ -1027,7 +1027,7 @@ i#icon_salvar{
     font-size: 15px;
     font-weight: 500;
     font-family: 'Montserrat', sans-serif;
-    
+
 }
 
 .center select#doctor_medic{
@@ -1061,13 +1061,13 @@ button#button_calendar:hover{
     right: 150px;
     background: none;
     cursor: pointer;
-    
+
 }
 
 .google-calendar{
     width: 100%;
     margin-top: 50px;
-        
+
 }
 
 .container-calendar{
@@ -1085,8 +1085,8 @@ button#button_calendar:hover{
 
 .search-biblic-form{
     width:100%;
-    
-   
+
+
 }
 
 .center-search{
@@ -1116,32 +1116,33 @@ form#form-pesquisa{
     width: 100%;
     height: 400px;
     display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    align-items: center;
-    margin: 0 25px;
-
-   
-   
+    flex-direction: column;
+    margin: 50px 25px;
 }
 
-form#form-pesquisa > input#name_search , input#mom_search{
-    padding: 7px 45px;
+form#form-pesquisa > .names{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+
+
+form#form-pesquisa #name_pesq, #mom_search{
+    padding: 7px 65px;
     font-size: 10px;
     font-weight: 600;
     text-transform: uppercase;
 
-   
+
 }
 
 
 
 input#date_search{
-    width: 50%;
     padding: 7px 5px;
     font-size: 12px;
     font-weight: 700;
-       
+
 }
 
 input#idade_search{
@@ -1149,7 +1150,7 @@ input#idade_search{
     padding: 7px 5px;
     font-size: 10px;
     font-weight: 700;
-       
+
 }
 
 input#tel_search{
@@ -1164,7 +1165,7 @@ input#endereço_search{
     font-size: 10px;
     font-weight: 700;
     text-transform: uppercase;
-    
+
 }
 
 input#number_search{
@@ -1197,12 +1198,12 @@ input#bairro_search{
         background-color: rgb(230, 230, 230);
         margin-top: 20px;
         margin-left: 50px;
-       
+
     }
     .container-primary{
         width: 20%;
         height: 830px;
-        background-color: gainsboro;  
+        background-color: gainsboro;
     }
-   
+
 }
