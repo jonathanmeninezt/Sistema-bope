@@ -1132,11 +1132,14 @@ form#form-pesquisa #name_pesq, #mom_search{
     font-size: 10px;
     font-weight: 600;
     text-transform: uppercase;
-
-
 }
 
-
+form#form-pesquisa > .dates{
+    width: 100%;
+    display: flex;
+    gap: 50px;
+    margin-top: 50px;
+}
 
 input#date_search{
     padding: 7px 5px;
@@ -1146,11 +1149,9 @@ input#date_search{
 }
 
 input#idade_search{
-    width: 40%;
     padding: 7px 5px;
     font-size: 10px;
     font-weight: 700;
-
 }
 
 input#tel_search{
