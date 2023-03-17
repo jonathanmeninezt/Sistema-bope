@@ -1150,19 +1150,30 @@ input#date_search{
 
 input#idade_search{
     padding: 7px 5px;
-    font-size: 10px;
-    font-weight: 700;
-}
-
-input#tel_search{
-    width: 40%;
-    padding: 9px 5px;
     font-size: 12px;
     font-weight: 700;
 }
 
+form#form-pesquisa > .form_two{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    margin-top: 50px;
+
+}
+
+input#cel_number{
+    width: 18%;
+    padding: 7px 10px;
+    font-size: 12px;
+    font-weight: 700;
+
+}
+
 input#endereço_search{
-    padding: 7px 45px;
+    width: 30%;
+    padding: 7px 5px;
     font-size: 10px;
     font-weight: 700;
     text-transform: uppercase;
@@ -1170,7 +1181,7 @@ input#endereço_search{
 }
 
 input#number_search{
-    width: 28%;
+    width: 10%;
     padding: 7px 2px;
     font-size: 10px;
     font-weight: 700;
@@ -1178,6 +1189,7 @@ input#number_search{
 }
 
 input#bairro_search{
+    width: 22%;
     padding: 7px 4px;
     font-size: 10px;
     font-weight: 700;
