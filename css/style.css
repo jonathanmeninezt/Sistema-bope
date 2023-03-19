@@ -1163,13 +1163,6 @@ form#form-pesquisa > .form_two{
 
 }
 
-input#cel_number{
-    width: 18%;
-    padding: 7px 10px;
-    font-size: 12px;
-    font-weight: 700;
-
-}
 
 input#endereço_search{
     width: 30%;
@@ -1198,6 +1191,20 @@ input#bairro_search{
 
 .search-biblic-form form > label{
     font-size: 15px;
+}
+
+.conatact{
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+
+}
+input#cel_number{
+    width: 18%;
+    padding: 7px 10px;
+    font-size: 12px;
+    font-weight: 700;
+
 }
 
 
