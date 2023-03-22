@@ -1199,11 +1199,12 @@ input#bairro_search{
     margin-top: 50px;
 
 }
-input#cel_number{
+input#cel_number,#email{
     width: 18%;
     padding: 7px 10px;
     font-size: 12px;
     font-weight: 700;
+
 
 }
 
