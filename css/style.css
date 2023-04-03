@@ -859,7 +859,7 @@ fieldset.bible,.basic{
 
 }
 
-.information-father > button{
+button.cadastro{
     padding: 6px 55px;
     background-color: #00c853;
     font-size: 17px;
