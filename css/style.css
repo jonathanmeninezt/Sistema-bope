@@ -871,7 +871,13 @@ button.cadastro{
     margin-top: 100px;
     margin-left: 20px;
     transition: all 0.8s;
+    opacity: 1;
 }
+
+button.cadastro:hover{
+  opacity: 0.7;
+}
+
 
 .information-father > i{
     position: relative;
