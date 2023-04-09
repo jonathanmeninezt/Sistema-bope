@@ -632,8 +632,8 @@ form.world > button{
 
 }
 
-.name-info #date{
-    width: 30%;
+.name-info #date_dn{
+    width: 25%;
     margin-right: 10px;
     margin-top: 20px;
 }
@@ -1205,14 +1205,20 @@ input#bairro_search{
     margin-top: 50px;
 
 }
-input#cel_number,#email{
-    width: 18%;
+input#email{
+    width: 28%;
     padding: 7px 10px;
     font-size: 12px;
     font-weight: 700;
-
-
 }
+
+input#cel, #tel{
+  width: 20%;
+  padding: 7px 10px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
 
 
 /* *********Modo Responsivo********** */
