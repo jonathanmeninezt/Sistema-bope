@@ -647,6 +647,11 @@ form.world > button{
     font-size: 14px;
 }
 
+.document-info input#idade{
+  width: 7%;
+
+}
+
 .document-info > label{
     vertical-align: 20px;
    position: relative;
