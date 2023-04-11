@@ -743,8 +743,8 @@ form.map{
 }
 
 .adress-info input#num{
-    padding: 6px 35px;
-    width: 13%;
+    padding: 6px 15px;
+    width: 10%;
     font-size: 15px;
     font-weight: 500;
     text-align: left;
