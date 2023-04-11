@@ -623,9 +623,9 @@ form.world > button{
 
 }
 
-.name-info > input{
+.name-info input#name_pessoa{
     padding: 4px 65px;
-    width: 70%;
+    width: 40%;
     margin-top: 20px;
     font-size: 12px;
     text-transform: uppercase;
