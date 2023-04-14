@@ -1150,7 +1150,7 @@ form#form-pesquisa #name_pesq, #mom_search{
 form#form-pesquisa > .dates{
     width: 100%;
     display: flex;
-    gap: 50px;
+    gap: 35px;
     margin-top: 50px;
 }
 
@@ -1162,7 +1162,7 @@ input#date_search{
 }
 
 input#idade_search{
-    padding: 7px 5px;
+    width: 8%;
     font-size: 12px;
     font-weight: 700;
 }
