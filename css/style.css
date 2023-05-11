@@ -161,6 +161,9 @@ section.home-initial{
     text-decoration: none;
 }
 
+.container-primary i:hover{
+  color: rgb(95, 3, 3);
+}
 
 
 .primary-box{
