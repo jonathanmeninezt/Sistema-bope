@@ -534,10 +534,13 @@ section.home-initial{
     border: 1px solid white;
     transition: 0.5s;
     margin: 0 15px;
+    opacity: 1;
 }
 
 .registration-new button.search:hover{
     background-color: rgb(46, 162, 108);
+    opacity: 0.6;
+    color: black;
 
 
 }
@@ -711,6 +714,7 @@ form.world > button{
     margin-top: 40px;
     margin-left: 20px;
     transition: all 0.8s;
+    opacity: 1;
 }
 
 .button-save > i{
@@ -723,6 +727,8 @@ form.world > button{
 
 .button-save > button:hover{
     background-color: #029a41;
+    opacity: 0.6;
+    color: black;
 
 }
 
@@ -1077,10 +1083,13 @@ button#button_calendar{
     font-weight: 500;
     font-family: 'Montserrat', sans-serif;
     text-transform:uppercase;
+    opacity: 1;
 }
 
 button#button_calendar:hover{
     background-color:rgb(54, 175, 119);
+    opacity: 0.6;
+    color: black;
 }
 
 .center i#icon_calendar{
