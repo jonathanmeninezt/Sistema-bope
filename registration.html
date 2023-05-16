@@ -16,7 +16,7 @@
      <div class="top-menu">
         <img src="img/bope.png">
         <i class="fa-sharp fa-solid fa-right-to-bracket"></i>
-     </div><!--top-menu-->    
+     </div><!--top-menu-->
     </header>
 
     <section class="home-initial">
@@ -39,24 +39,24 @@
        <div class="icon-register" style="display: flex;flex-direction: row; margin-top: 50px;">
          <i class="fa-sharp fa-solid fa-users" style="position: relative;left: 20px; top: auto;"></i>
          <h3><a href="registration.html">Cadastros</a></h3>
-        </div><!--icon-register--> 
-        
-        <div class="icon-bible" style="display: flex;flex-direction: row; margin-top: 50px;"> 
-         <i class="fa-solid fa-book-bible" style="position: relative;left: 20px; top: auto;"></i> 
+        </div><!--icon-register-->
+
+        <div class="icon-bible" style="display: flex;flex-direction: row; margin-top: 50px;">
+         <i class="fa-solid fa-book-bible" style="position: relative;left: 20px; top: auto;"></i>
          <h3><a href="#">Estudos Bíblicos</a></h3>
-        </div><!--icon-bible--> 
+        </div><!--icon-bible-->
 
        <div class="icon-pesquisa" style="display: flex;flex-direction: row; margin-top: 50px;">
          <i class="fa-solid fa-clipboard-question"  style="position: relative;left: 20px; top: auto;"></i>
          <h3><a href="search.html">Pesquisas</a></h3>
        </div><!--icon-pesquisa-->
 
-      
+
 
        <div class="icon-settings" style="display: flex;flex-direction: row; margin-top: 50px;">
          <i class="fa-solid fa-gear" style="position: relative;left: 20px; top: auto;"></i>
          <h3><a href="#">Configurações</a></h3>
-       </div><!--icon-settings-->  
+       </div><!--icon-settings-->
 
       </div><!--container-primary-->
 
@@ -64,7 +64,7 @@
         <div class="registration">
             <h2>Cadastros</h2>
             <div class="registration-new">
-                <input class="w100" type="submit" name="name" value="Novo Cadastro"> 
+                <input class="w100" type="submit" name="name" value="Novo Cadastro">
                 <i class="fa-solid fa-circle-plus"></i>
                 <input class="w50" type="name" name="name" placeholder="Presquisar por...">
                 <button class="search">PESQUISAR</button>
@@ -107,8 +107,8 @@
             </div><!--contact-info-->
 
             <i id="icon_salvar" class="fa-solid fa-check"></i>
-            <button type="button" onclick="pessoa.salvar()">Salvar</button>
-            <button type="button" onclick="pessoa.cancelar()">Cancelar</button>
+            <button class="button_save" type="button" onclick="pessoa.salvar()">Salvar</button>
+            <button class="button_cancelar" type="button" onclick="pessoa.cancelar()">Cancelar</button>
           </form><!--world-->
 
           <form id="map" class="map">
@@ -124,7 +124,7 @@
               <select id="uf" class="estate" name="estate">
                 <option  value=""  disabled selected>Selecione</option>
                 <option id="selection_uf" value="1">Rio de Janeiro</option>
-              </select><!--estate-info-->   
+              </select><!--estate-info-->
 
             <label>Bairro</label>
             <select id="district" name="district">
@@ -132,10 +132,10 @@
               <option value="1">Realengo</option>
               <option value="2">Bangu</option>
               <option value="3">Sulacap</option>
-              <option value="4">Campo Grande</option> 
-              <option value="5">Barra da Tijuca</option> 
-              <option value="6">Madureira</option> 
-              <option value="7">Méier</option>  
+              <option value="4">Campo Grande</option>
+              <option value="5">Barra da Tijuca</option>
+              <option value="6">Madureira</option>
+              <option value="7">Méier</option>
             </select><!--district-->
           </div><!--localization-info-->
           <div class="complement-code">
@@ -144,12 +144,12 @@
 
             <label>CEP</label>
             <input id="code" type="text" name="code_info">
-          </div><!--complement-code--> 
+          </div><!--complement-code-->
           </form><!--map-->
 
           <form id="information">
             <div class="information-father">
-              <div class="fieldset-father"> 
+              <div class="fieldset-father">
                 <fieldset class="bible">
                   <legend> Participa de Estudo Bíblico?</legend>
                   <div>
@@ -161,7 +161,7 @@
                     <label for = "music"> Não </label>
                   </div>
                 </fieldset><!--bible-->
-      
+
                 <fieldset class="basic">
                   <legend> Recebe cesta básica?</legend>
                   <div class="checkbox-two">
@@ -181,15 +181,15 @@
                 <option value="1">Novo Tempo</option>
                 <option value="2">Desbravadores</option>
                 <option value="3">Aventureiros</option>
-                <option value="4">ASA</option> 
-                <option value="5">Proj. Médicos</option> 
-                <option value="6">Proj. Cesta Básica</option> 
-                <option value="7">Recepção</option>  
-                <option value="8">Restauração</option>  
+                <option value="4">ASA</option>
+                <option value="5">Proj. Médicos</option>
+                <option value="6">Proj. Cesta Básica</option>
+                <option value="7">Recepção</option>
+                <option value="8">Restauração</option>
                 <option value="9">Jovens</option>
-                <option value="10">DPO</option> 
+                <option value="10">DPO</option>
                 <option value="11">Ação Social</option>
-                <option value="12">Membros</option>       
+                <option value="12">Membros</option>
               </select><!--district-->
              </div><!--indication-father-->
              <i class="fa-solid fa-check"></i>
@@ -201,12 +201,12 @@
            <table border="1">
               <caption>Cadastrados</caption>
                <colgroup>
-                
-                
+
+
                 <col span="2" style="background-color:white;">
                 <col span="1">
                 <col span="0" style="background-color:white;">
-                
+
                </colgroup>
                <thead>
                   <th class="center">ID</th>
@@ -219,19 +219,19 @@
                   <th>Ações</th>
                </thead>
                <tbody id="tbody">
-                 
-                  
+
+
                     <i style="display: none;" id="icon_pencil" class="fa-solid fa-pencil"></i>
                     <i style="display: none;" class="fa-solid fa-trash-can"></i>
-                  
-               
-              
-                
+
+
+
+
                </tbody>
-            </table> 
+            </table>
           </div><!--list-box-->
 
-          
+
 
         </div><!--container-tri-->
         </div><!--box-->
@@ -239,7 +239,7 @@
     </section><!--home-initial-->
 
     <script src="js/main.js"></script>
-   
-    
+
+
 </body>
 </html>

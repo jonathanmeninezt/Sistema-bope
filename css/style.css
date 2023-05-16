@@ -631,6 +631,14 @@ form.world > button{
     opacity: 1 !important;
 }
 
+form.world .button_save:hover{
+  color: black;
+}
+
+form.world .button_cancelar:hover{
+  color: black;
+}
+
 .name-info{
     display: flex;
     flex-direction: row;
