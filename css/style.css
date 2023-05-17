@@ -1171,6 +1171,7 @@ form#form-pesquisa > .names{
     width: 100%;
     display: flex;
     gap: 10px;
+
 }
 
 
@@ -1179,6 +1180,9 @@ form#form-pesquisa #name_pesq, #mom_search{
     font-size: 10px;
     font-weight: 600;
     text-transform: uppercase;
+
+
+
 }
 
 form#form-pesquisa > .dates{
@@ -1199,6 +1203,7 @@ input#idade_search{
     width: 8%;
     font-size: 12px;
     font-weight: 700;
+    text-align: center;
 }
 
 form#form-pesquisa > .form_two{
