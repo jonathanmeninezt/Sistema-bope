@@ -838,7 +838,7 @@ form.map{
 }
 
 .complement-code input#code{
-    padding: 6px 45px;
+    padding: 6px 5px;
     margin: 10px 30px;
     font-size: 15px;
     font-weight: 500;
@@ -1165,6 +1165,7 @@ form#form-pesquisa{
     display: flex;
     flex-direction: column;
     margin: 50px 25px;
+
 }
 
 form#form-pesquisa > .names{
@@ -1180,6 +1181,8 @@ form#form-pesquisa #name_pesq, #mom_search{
     font-size: 10px;
     font-weight: 600;
     text-transform: uppercase;
+
+
 
 
 
